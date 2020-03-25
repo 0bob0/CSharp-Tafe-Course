@@ -639,15 +639,16 @@ switch (day)
   <li>If this is ture then do code</li>
   <li>if... else - if this is true then do this code else do this code</li></ul>
 
-<h3>TASK</H3>
+<h3>TASK - Project 2</H3>
 <hr> <br>
 Create a small program (using decisions) to achieve the following
 A Teacher is to enter a grade and write a standard output for the student.
-Grade < 50% - Fail – can try harder
-Grade 51-60% - pass – works hard
-Grade 61-75% - pass – Quiet achiever
-Grade 76-90% - pass – Unexpected result a joy to behold
-Grade 91-100% - Fail – an obvious cheat – no evidence of intellect show previously
+<ul>
+<li>Grade < 50% - Fail – can try harder</li>
+<li>Grade 51-60% - pass – works hard</li>
+<li>Grade 61-75% - pass – Quiet achiever</li>
+<li>Grade 76-90% - pass – Unexpected result a joy to behold</li>
+<li>Grade 91-100% - Fail – an obvious cheat – no evidence of intellect show previously</li>
 
 Comapre your solution with other students' answers to see if there are better ways to produce your program
 <hr> <br>
@@ -663,6 +664,13 @@ Comapre your solution with other students' answers to see if there are better wa
   <li>types: while - do while, for, foreach</li>
 </ul>
 
+<h3>TASK - Project 3</H3>
+<hr> <br>
+Create a small program 
+Comapre your solution with other students' answers to see if there are better ways to produce your program
+<hr> <br>
+
+
 
 
 <h2>Arrays</h2>
@@ -674,6 +682,11 @@ Comapre your solution with other students' answers to see if there are better wa
   <li>arrays hold multiple buckets of data - accessed by refgerencing the elemnet number of the array</li>
   <li>can have 1 line arrays (like a string) 2 dimensions - even arrays of arrays (makes my head hurt thinking of these)</li>
 </ul>
+<h3>TASK - Project 4</H3>
+<hr> <br>
+Create a small program 
+Comapre your solution with other students' answers to see if there are better ways to produce your program
+<hr> <br>
 
 
 <h2>Working with files</h2>
@@ -684,6 +697,11 @@ Comapre your solution with other students' answers to see if there are better wa
   <li>the ability to store data for retrieval later is handy</li>
   <li>be careful where you write this data to - can get lost</li>
 </ul>
+<h3>TASK - Project 5</H3>
+<hr> <br>
+Create a small program 
+Comapre your solution with other students' answers to see if there are better ways to produce your program
+<hr> <br>
 
 
 <h2>Methods</h2>
@@ -693,6 +711,11 @@ Comapre your solution with other students' answers to see if there are better wa
   <li>Methods (or Functions) are a good way to start dividing your code up</li>
   <li>Each method should have 1 function - i.e. add 2 numbers together - it will make your code easier to read, t'shoot and manage later on when your programs become a lot bigger</li>
 </ul>
+<h3>TASK - Project 6</H3>
+<hr> <br>
+Create a small program 
+Comapre your solution with other students' answers to see if there are better ways to produce your program
+<hr> <br>
 
 
 
