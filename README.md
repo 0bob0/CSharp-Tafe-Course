@@ -496,19 +496,19 @@ This is what's called an `if else` statement, it does pretty much what it sounds
 <li>switch statement</li>
 
 <h3>If</h3>
-```csharp
+
 if(boolean expression == true or false)
 {
     // execute all this code if expression evalutes to true
 }
-```
+
 
 or you can have multiple if statements
 
 
 
 <h3>If Else</h3>
-```csharp
+
 if(boolean expression == true or false)
 {
     // execute all this code if expression evalutes to true
@@ -518,7 +518,7 @@ else
     // execute all this code if expression evalutes to false
 }
 
-```
+
 
 
 <h3>If elseif else if</h3>
