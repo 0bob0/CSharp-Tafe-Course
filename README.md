@@ -493,6 +493,7 @@ This is what's called an `if else` statement, it does pretty much what it sounds
 <ul>
 <li>if statement</li>
 <li>if-else statement</li>
+<li>if-elseif-else statement</li>
 <li>switch statement</li>
 
 <h3>If</h3>
@@ -501,10 +502,31 @@ if(boolean expression == true or false)
 {
     // execute all this code if expression evalutes to true
 }
+```csharp
+
+```
 
 
 or you can have multiple if statements
 
+```csharp
+int i = 10, j = 20;
+
+if (i > j)
+{
+    Console.WriteLine("i is greater than j");
+}
+
+if (i < j)
+{
+    Console.WriteLine("i is less than j");
+}        
+
+if (i == j)
+{
+    Console.WriteLine("i is equal to j");
+}   
+```
 
 
 <h3>If Else</h3>
@@ -518,10 +540,15 @@ else
     // execute all this code if expression evalutes to false
 }
 
+```csharp
+if(true)
+{
+    Console.WriteLine("This will be displayed.");
+}
+Console.ReadLine();
+```
 
-
-
-<h3>If elseif else if</h3>
+<h3>If elseif else</h3>
 
 TASK - write pseudo code for the following program - also add comments to the code 
 ```csharp
