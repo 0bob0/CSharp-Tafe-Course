@@ -602,12 +602,55 @@ namespace Game1
 
 
 <h3>Switch</h3>
+statements – use them if you have a range of known inputs that require a particular output. Or you don’t want to write down a massive list of If else statements.
+NOte - to get out of a Case we need to 'break' this allows the program to flow into the next section (after the switch)
+
+```csharp
+int day = 4;
+switch (day) 
+{
+  case 1:
+    Console.WriteLine("Monday");
+    break;
+  case 2:
+    Console.WriteLine("Tuesday");
+    break;
+  case 3:
+    Console.WriteLine("Wednesday");
+    break;
+  case 4:
+    Console.WriteLine("Thursday");
+    break;
+  case 5:
+    Console.WriteLine("Friday");
+    break;
+  case 6:
+    Console.WriteLine("Saturday");
+    break;
+  case 7:
+    Console.WriteLine("Sunday");
+    break;
+}
+```
+
 <h3>Recap</h3>
 <ul>
   <li>decisions provide branches for your data flow</li>
   <li>If this is ture then do code</li>
   <li>if... else - if this is true then do this code else do this code</li></ul>
 
+<h3>TASK</H3>
+<hr> <br>
+Create a small program (using decisions) to achieve the following
+A Teacher is to enter a grade and write a standard output for the student.
+Grade < 50% - Fail – can try harder
+Grade 51-60% - pass – works hard
+Grade 61-75% - pass – Quiet achiever
+Grade 76-90% - pass – Unexpected result a joy to behold
+Grade 91-100% - Fail – an obvious cheat – no evidence of intellect show previously
+
+Comapre your solution with other students' answers to see if there are better ways to produce your program
+<hr> <br>
 
 <h2>Loops</h2>
 <h3>While</h3>
