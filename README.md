@@ -502,8 +502,13 @@ if(boolean expression == true or false)
 {
     // execute all this code if expression evalutes to true
 }
-```csharp
 
+```csharp
+if(true)
+{
+    Console.WriteLine("This will be displayed.");
+}
+Console.ReadLine();
 ```
 
 
@@ -540,13 +545,20 @@ else
     // execute all this code if expression evalutes to false
 }
 
+
 ```csharp
-if(true)
+int i = 10, j = 20;
+
+if (i > j)
 {
-    Console.WriteLine("This will be displayed.");
+    Console.WriteLine("i is greater than j");
 }
-Console.ReadLine();
+else
+{
+    Console.WriteLine("i is either equal to or less than j");
+}
 ```
+
 
 <h3>If elseif else</h3>
 
