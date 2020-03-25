@@ -489,8 +489,79 @@ This is what's called an `if else` statement, it does pretty much what it sounds
 </ul>
 
 <h2>Decisions</h2>
+<p>C# provides many decision making statements that help the flow of the C# program based on certain logical conditions. C# includes the following decision making statements.</p>
+<ul>
+<li>if statement</li>
+<li>if-else statement</li>
+<li>switch statement</li>
+
 <h3>If</h3>
+```csharp
+if(boolean expression == true or false)
+{
+    // execute all this code if expression evalutes to true
+}
+```
+
+or you can have multiple if statements
+
+
+
 <h3>If Else</h3>
+```csharp
+if(boolean expression == true or false)
+{
+    // execute all this code if expression evalutes to true
+}
+else
+{
+    // execute all this code if expression evalutes to false
+}
+
+```
+
+
+<h3>If elseif else if</h3>
+
+TASK - write pseudo code for the following program - also add comments to the code 
+```csharp
+using System;
+
+namespace Game1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("find the number");
+            Console.Write("choose a number: 1, 2 or 3: ");
+            string userValue = Console.ReadLine();
+            if (userValue == "1") 
+            {
+                string message = "you won a lot of stuff!"; 
+                Console.WriteLine(message);
+            }
+            else if (userValue == "2")
+            {
+                string message = "you won a bit of stuff!"; 
+                Console.WriteLine(message);
+            }
+            else if (userValue == "3")
+            {
+                string message = "you won some stuff! - but not much"; 
+                Console.WriteLine(message);
+            }
+            else             {
+                string message = "you cannot read! - try again...... sigh";
+                Console.WriteLine(message);
+            }
+            Console.ReadLine();
+        }
+    }
+}
+```
+
+
 <h3>Switch</h3>
 <h3>Recap</h3>
 <ul>
